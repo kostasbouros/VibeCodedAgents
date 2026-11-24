@@ -1,0 +1,9 @@
+# Limits the agents' rules use (e.g. "device silent for more than N hours").
+# Code reads values from here; it never hardcodes them.
+# Values are intentionally empty: fill them in only when the business decides them.
+desk_triage: {}
+device_watchdog: {}
+install_verifier: {}
+install_qa: {}
+fleet_report: {}
+account_signals: {}

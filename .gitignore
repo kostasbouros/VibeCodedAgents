@@ -1,0 +1,22 @@
+# Secrets and local settings
+.env
+*secret*
+*token*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated output (folders kept, contents ignored)
+data/*
+reports/*
+logs/*
+!data/.gitkeep
+!reports/.gitkeep
+!logs/.gitkeep
+
+# Local databases
+*.db

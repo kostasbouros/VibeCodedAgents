@@ -1,0 +1,61 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit(./**)",
+      "Bash(pytest)",
+      "Bash(pytest *)",
+      "Bash(python -m pytest *)",
+      "Bash(ruff *)",
+      "Bash(python -m agents.*)",
+      "Bash(uvicorn mock_api.*)",
+      "Bash(pip install -e .)",
+      "Bash(pip install -e \".[dev]\")",
+      "PowerShell(pytest)",
+      "PowerShell(pytest *)",
+      "PowerShell(python -m pytest *)",
+      "PowerShell(ruff *)",
+      "PowerShell(python -m agents.*)",
+      "PowerShell(uvicorn mock_api.*)",
+      "PowerShell(pip install -e .)",
+      "PowerShell(pip install -e \".[dev]\")"
+    ],
+    "ask": [
+      "Bash(git push)",
+      "Bash(git push *)",
+      "Bash(docker *)",
+      "PowerShell(git push)",
+      "PowerShell(git push *)",
+      "PowerShell(docker *)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(**/.env)",
+      "Edit(./.env)",
+      "Edit(**/.env)",
+      "Read(~/.ssh/**)",
+      "Edit(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Edit(~/.aws/**)",
+      "Bash(rm -rf *)",
+      "Bash(rm -fr *)",
+      "PowerShell(Remove-Item * -Recurse -Force*)",
+      "PowerShell(rm -rf *)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.py\"",
+            "timeout": 10,
+            "onFailure": "block"
+          }
+        ]
+      }
+    ]
+  }
+}
