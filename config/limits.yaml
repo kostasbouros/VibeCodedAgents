@@ -1,0 +1,23 @@
+# Technical limits used by shared/ code. These are not business thresholds (those live in
+# thresholds.yaml); they control retries, waiting and text sizes.
+# Read once when a program starts. Unknown names or non-positive values stop the program.
+
+http:
+  max_attempts: 4               # tries per request, including the first
+  base_wait_seconds: 1.0        # waits between tries: 1s, 2s, 4s (doubling)...
+  max_jitter_seconds: 0.5       # ...plus up to this much random extra
+  max_retry_after_seconds: 120  # if a server asks to wait longer, give up instead
+
+claude:
+  max_tokens: 1500              # default reply budget per call (thinking counts too)
+  max_validation_error_chars: 2000  # how much of a schema error is sent back on retry
+
+state:
+  claim_stale_after_minutes: 60 # a claim older than this is treated as abandoned
+  max_error_chars: 500          # error text kept per run in the runs table
+
+trace:
+  max_note_chars: 200           # length of notes kept in a trace (after scrubbing)
+
+redact:
+  signoff_search_lines: 8       # a sign-off only counts in the last N non-empty lines

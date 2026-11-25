@@ -31,8 +31,9 @@ class Settings(BaseSettings):
 
     # Mock data is the default; real systems only when USE_MOCKS=false is set explicitly.
     use_mocks: bool = True
+    state_db_path: str = "data/state.db"  # relative paths are from the project folder
     log_level: str = "INFO"
-    environment: str = "development"
+    environment: str = "dev"
 
 
 @lru_cache

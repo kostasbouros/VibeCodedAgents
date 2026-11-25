@@ -1,0 +1,24 @@
+# Prices in US dollars per 1 million tokens. Used ONLY to estimate cost in logs and reports;
+# Anthropic's invoice is the real number.
+#
+# PLACEHOLDERS - check and update these from Anthropic's API pricing page before relying on
+# them. input/output/cache_read were copied from Anthropic's published list (Nov 2026);
+# cache_write is an estimate (1.25 x input, the usual 5-minute cache-write rate).
+#
+# A model that is not listed here is still allowed; its cost is reported as unknown.
+models:
+  claude-opus-5-5:
+    input: 4.00
+    output: 20.00
+    cache_read: 0.20
+    cache_write: 5.00
+  claude-sonnet-5-5:
+    input: 2.00
+    output: 10.00
+    cache_read: 0.10
+    cache_write: 2.50
+  claude-haiku-5-5:
+    input: 0.10
+    output: 0.50
+    cache_read: 0.01
+    cache_write: 0.125
