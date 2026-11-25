@@ -1,0 +1,133 @@
+# Device Watchdog rules. Read by agents/device_watchdog/rules.py, which checks this file when
+# it loads and stops on any unknown name, missing value or input not in
+# config/mobility_field_map.yaml.
+#
+# Each rule:
+#   rule_id, version   change version whenever the rule's meaning or a value changes
+#   enabled            false = never evaluated
+#   applies_to         "*" or a list of unit types (e.g. [FMB920])
+#   inputs             names from config/mobility_field_map.yaml that the rule reads
+#   condition          type (which check runs) and its parameters
+#   severity           info | warning | critical
+#   escalate           true = always send to a person, whatever the severity
+#   rationale          why the rule exists
+#   exceptions         when the rule must NOT fire: input + comparison (gt, ge, lt, le, eq, ne)
+#                      + value. Skipped when the input has no reading.
+#   owner, test_file   who owns the values; where the rule's tests live
+
+rules:
+  - rule_id: OFFLINE_01
+    version: 1
+    enabled: true
+    applies_to: "*"
+    inputs: [last_report_time_utc, ignition, sleep_mode]
+    condition:
+      type: offline
+      # Expected interval per unit type: config/report_intervals.yaml (moving if ignition on).
+      interval_multiplier: 3        # EXAMPLE VALUE - operations to confirm
+      definite_after_hours: 24      # EXAMPLE VALUE - operations to confirm
+      definite_severity: critical
+      moving_ignition_values: ["on"]
+    severity: warning
+    escalate: false
+    rationale: >-
+      A unit that has not reported for more than 3 times its expected interval may be offline;
+      after 24 hours without a report it is treated as definitely offline.
+    exceptions:
+      - input: sleep_mode
+        op: gt
+        value: 0                    # EXAMPLE VALUE - operations to confirm
+        reason: Device is in sleep mode, so long gaps between reports are expected.
+    owner: operations
+    test_file: tests/device_watchdog/test_rules.py
+
+  - rule_id: POWER_01
+    version: 1
+    enabled: true
+    applies_to: "*"
+    inputs: [external_voltage_v, battery_voltage_v, internal_battery_pct]
+    condition:
+      type: power_loss
+      max_external_voltage_v: 1.0   # EXAMPLE VALUE - operations to confirm
+      # The internal battery counts as present if any of these has a reading.
+      # Mobility gives the internal battery as a percentage, not volts.
+      battery_present_inputs: [battery_voltage_v, internal_battery_pct]
+    severity: critical
+    escalate: true                  # power cut: always sent to a person
+    rationale: >-
+      External power is gone while the device is still running on its internal battery:
+      power cut, cut wire or tampering.
+    exceptions: []
+    owner: operations
+    test_file: tests/device_watchdog/test_rules.py
+
+  - rule_id: GSM_01
+    version: 1
+    enabled: true
+    applies_to: "*"
+    inputs: [gsm_level]
+    condition:
+      type: low_gsm
+      max_level: 2                  # EXAMPLE VALUE - operations to confirm
+      consecutive_readings: 3       # EXAMPLE VALUE - operations to confirm
+    severity: warning
+    escalate: false
+    rationale: >-
+      Weak mobile signal on several readings in a row means data may be delayed or lost
+      (bad antenna, poor mounting or poor coverage).
+    exceptions: []
+    owner: operations
+    test_file: tests/device_watchdog/test_rules.py
+
+  - rule_id: GPS_01
+    version: 1
+    enabled: true
+    applies_to: "*"
+    inputs: [satellites, ignition]
+    condition:
+      type: low_gps
+      min_satellites: 4             # EXAMPLE VALUE - operations to confirm
+      ignition_on_values: ["on"]
+    severity: warning
+    escalate: false
+    rationale: >-
+      Fewer than 4 satellites while the vehicle is on gives no reliable position fix
+      (blocked antenna or GPS fault).
+    exceptions: []
+    owner: operations
+    test_file: tests/device_watchdog/test_rules.py
+
+  - rule_id: JAM_01
+    version: 1
+    enabled: true
+    applies_to: "*"
+    inputs: [jamming, api_alert_type]
+    condition:
+      type: jamming
+      jamming_value: 2
+      min_duration_seconds: 60      # EXAMPLE VALUE - operations to confirm
+      alert_types: [Jamming]
+      alert_lookback_hours: 24      # EXAMPLE VALUE - operations to confirm
+    severity: critical
+    escalate: true
+    rationale: >-
+      Jamming is a common sign of attempted theft. Always escalated to a person.
+    exceptions: []
+    owner: operations
+    test_file: tests/device_watchdog/test_rules.py
+
+  - rule_id: BATT_01
+    version: 1
+    enabled: false                  # disabled until operations set the threshold
+    applies_to: "*"
+    inputs: [battery_voltage_v]
+    condition:
+      type: low_battery
+      max_voltage_v: null           # EXAMPLE VALUE - operations to confirm (to be set)
+    severity: warning
+    escalate: false
+    rationale: >-
+      Low battery voltage means the device may soon stop reporting.
+    exceptions: []
+    owner: operations
+    test_file: tests/device_watchdog/test_rules.py

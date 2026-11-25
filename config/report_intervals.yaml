@@ -1,0 +1,16 @@
+# How often each unit type is expected to report, in seconds.
+#   parked_seconds: ignition off
+#   moving_seconds: ignition on
+# Used by rule OFFLINE_01 in config/rules.yaml. A unit type not listed here uses "default".
+
+default:
+  parked_seconds: 3600   # EXAMPLE VALUE - operations to confirm
+  moving_seconds: 120    # EXAMPLE VALUE - operations to confirm
+
+unit_types:
+  FMB920:
+    parked_seconds: 3600  # EXAMPLE VALUE - operations to confirm
+    moving_seconds: 120   # EXAMPLE VALUE - operations to confirm
+  FMC130:
+    parked_seconds: 3600  # EXAMPLE VALUE - operations to confirm
+    moving_seconds: 60    # EXAMPLE VALUE - operations to confirm

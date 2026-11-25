@@ -2,7 +2,14 @@
 # Code reads values from here; it never hardcodes them.
 # Values are intentionally empty: fill them in only when the business decides them.
 desk_triage: {}
-device_watchdog: {}
+device_watchdog:
+  # Device health rules themselves live in config/rules.yaml.
+  grouping:
+    min_units: 5                # EXAMPLE VALUE - operations to confirm
+    window_minutes: 15          # EXAMPLE VALUE - operations to confirm
+    # A same-carrier group counts as a network issue only across this many customers;
+    # otherwise 5+ units of one customer are grouped as a probable customer-site issue.
+    carrier_min_companies: 2    # EXAMPLE VALUE - operations to confirm
 install_verifier: {}
 install_qa: {}
 fleet_report: {}

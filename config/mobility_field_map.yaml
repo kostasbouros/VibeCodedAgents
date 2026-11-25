@@ -1,0 +1,101 @@
+# Input names the agents use, and where each value comes from in the Mobility API
+# (connectors/mobility.py). Rules in config/rules.yaml may only use names listed here.
+# Read by agents/device_watchdog/snapshot.py.
+#
+#   source:    Mobility endpoint the value comes from; null when the API does not provide it
+#   kind:      how to read it from units/latestpositionslist (and units/unit/list):
+#                unit      a field of the unit           (key = connector field name)
+#                latest    a field of the latest report  (key = connector field name)
+#                position  a field of Position           (key = connector field name)
+#                sensor    SensorReadings entry by Name  (key = sensor Name), kept as a number
+#                io        InputOutputs entry by SystemName (key = SystemName), true/false
+#                alert     from alerts/alerts/list       (key = connector field name)
+#                none      not available
+#   unit:      unit or type of the value
+#   available: false = not seen in the Mobility API yet. Rules that need it cannot fire
+#              until the value is found (or the rule is changed).
+
+fields:
+  last_report_time_utc:
+    source: units/latestpositionslist
+    kind: latest
+    key: last_reported_time_utc     # API: LastReportedTimeUTC
+    unit: utc_datetime
+    available: true
+
+  unit_type:
+    source: units/unit/list
+    kind: unit
+    key: unit_type                  # API: UnitType, e.g. FMB920
+    unit: text
+    available: true
+
+  ignition:
+    source: units/latestpositionslist
+    kind: position
+    key: ignition                   # API: Position.Ignition, "on" / "off"
+    unit: text
+    available: true
+
+  external_voltage_v:
+    source: units/latestpositionslist
+    kind: sensor
+    key: External Battery
+    unit: volt
+    available: true
+
+  internal_battery_pct:
+    source: units/latestpositionslist
+    kind: sensor
+    key: Internal Battery
+    unit: percent
+    available: true
+
+  battery_voltage_v:
+    source: null                    # Mobility gives the internal battery as a percentage only
+    kind: none
+    key: null
+    unit: volt
+    available: false
+
+  gsm_level:
+    source: units/latestpositionslist
+    kind: sensor
+    key: Signal Strength
+    unit: level_0_to_5
+    available: true
+
+  satellites:
+    source: units/latestpositionslist
+    kind: sensor
+    key: Satellite Count
+    unit: count
+    available: true
+
+  jamming:
+    source: null                    # device jamming state 0/1/2 (2 = jamming); Mobility only
+    kind: none                      # has the on/off input "gsmjammed" (gsm_jammed_input)
+    key: null
+    unit: state_0_1_2
+    available: false
+
+  gsm_jammed_input:
+    source: units/latestpositionslist
+    kind: io
+    key: gsmjammed
+    unit: true_false
+    available: true
+
+  sleep_mode:
+    source: null                    # device sleep mode (0 = not sleeping); not in Mobility
+    kind: none
+    key: null
+    unit: level
+    available: false
+
+  api_alert_type:
+    source: alerts/alerts/list
+    kind: alert
+    key: alert_type                 # API: AlertType, e.g. "Jamming", "Power Cut"
+    unit: text
+    available: true
