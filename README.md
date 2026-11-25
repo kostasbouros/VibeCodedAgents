@@ -48,3 +48,35 @@ A set of small AI helpers for G4S Telematix. Each one does one everyday job: sor
 ```
 python -m pytest
 ```
+
+## Mock APIs (no real systems needed)
+
+Start the fake systems on your computer:
+
+```
+uvicorn mock_api.server:app --port 8099
+```
+
+Then open http://localhost:8099/docs in a browser to see and try every endpoint.
+
+- **Mobility (3dtracking WebApi v1.0)** at `http://localhost:8099/api/v1.0/...`.
+  Log in with `username=mock&password=mock`, then pass the `UserIdGuid` and `SessionId` you
+  get back on every call, exactly like the real API. Field names follow the vendor's published
+  spec and a real response. The data has 20 made-up vehicles (`VEH_001`...`VEH_020`) with
+  problems planted on purpose (offline units, low battery, jamming, a power cut, deep sleep
+  and a carrier outage). Times move with the clock, so those problems always look current.
+- To rebuild the mock data: `python -m mock_api.mobility.generate` (always gives the same files).
+
+## Reading from Mobility in code
+
+`connectors/mobility.py` is a read-only client. It logs in, renews the session by itself and
+never writes anything to the platform. With `USE_MOCKS=true` it talks to the mock above:
+
+```python
+from connectors.mobility import get_mobility_client
+
+with get_mobility_client() as mobility:
+    for unit in mobility.latest_positions():
+        print(unit.name, unit.last_reported_time_utc)
+    positions, next_start_id, is_current = mobility.positions(start_id=0)
+```

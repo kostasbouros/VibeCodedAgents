@@ -328,3 +328,9 @@ def test_review_long_text_is_fast() -> None:
     started = time.perf_counter()
     redact("a" * 30000 + " A1" * 10000)
     assert time.perf_counter() - started < 2
+
+
+def test_review_guids_are_left_alone_and_not_flagged() -> None:
+    # Found while building the Mobility mock: GUID digit groups looked like a card number.
+    text = "Unit b271a8ea-d87c-5227-9583-4837fba15d53 is offline"
+    assert clean(text) == text

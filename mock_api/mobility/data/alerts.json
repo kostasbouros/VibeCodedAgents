@@ -1,0 +1,82 @@
+[
+ {
+  "AlertUID": "118d6a30-5969-5cf2-a42f-7014d1f716a6",
+  "AlertName": "Geofence Entry alert",
+  "AlertType": "Geofence Entry",
+  "AlertTypeUID": "40bb10ca-983e-51b3-bb84-ae1b14f10268",
+  "Vehicle": "VEH_002",
+  "CreatedDate": "2026-11-23T20:00:00",
+  "AlertMessage": "Geofence Entry: VEH_002 near Piraeus, GR [37.8781 / 23.8516]",
+  "AlertQueueId": 50001
+ },
+ {
+  "AlertUID": "2c26c639-e267-5feb-bb76-b251ebdf43ba",
+  "AlertName": "Jamming alert",
+  "AlertType": "Jamming",
+  "AlertTypeUID": "a99991d5-9756-55c8-999f-8c4c30d4e4cd",
+  "Vehicle": "VEH_009",
+  "CreatedDate": "2026-11-24T16:00:00",
+  "AlertMessage": "Jamming: VEH_009 near Glyfada, Athens, GR [37.8625 / 23.7693]",
+  "AlertQueueId": 50002
+ },
+ {
+  "AlertUID": "167bf975-49ff-5a73-b2e8-334d7e5255f1",
+  "AlertName": "Tamper alert",
+  "AlertType": "Tamper",
+  "AlertTypeUID": "80df263f-cd84-5c90-a7ca-b04eb7b45b7f",
+  "Vehicle": "VEH_014",
+  "CreatedDate": "2026-11-24T21:00:00",
+  "AlertMessage": "Tamper: VEH_014 near Piraeus, GR [37.9568 / 23.6651]",
+  "AlertQueueId": 50003
+ },
+ {
+  "AlertUID": "4efa5095-3c9a-5608-a078-ec7bd2577113",
+  "AlertName": "Geofence Entry alert",
+  "AlertType": "Geofence Entry",
+  "AlertTypeUID": "40bb10ca-983e-51b3-bb84-ae1b14f10268",
+  "Vehicle": "VEH_006",
+  "CreatedDate": "2026-11-24T23:00:00",
+  "AlertMessage": "Geofence Entry: VEH_006 near Peristeri, Athens, GR [37.5167 / 24.6052]",
+  "AlertQueueId": 50004
+ },
+ {
+  "AlertUID": "abd3ad60-c5aa-50cf-bb21-ad75560bb693",
+  "AlertName": "Power Cut alert",
+  "AlertType": "Power Cut",
+  "AlertTypeUID": "f106926b-0e34-5852-9ce4-9e9be3ca7774",
+  "Vehicle": "VEH_011",
+  "CreatedDate": "2026-11-25T06:00:00",
+  "AlertMessage": "Power Cut: VEH_011 near Kalamaria, Thessaloniki, GR [40.5853 / 22.9406]",
+  "AlertQueueId": 50005
+ },
+ {
+  "AlertUID": "03c06113-e3ca-58af-af29-b274ca8565d0",
+  "AlertName": "Panic alert",
+  "AlertType": "Panic",
+  "AlertTypeUID": "6e29c0f0-c379-5233-ad21-27d2fe31f60c",
+  "Vehicle": "VEH_007",
+  "CreatedDate": "2026-11-25T09:00:00",
+  "AlertMessage": "Panic: VEH_007 near Kalamaria, Thessaloniki, GR [40.8532 / 22.0864]",
+  "AlertQueueId": 50006
+ },
+ {
+  "AlertUID": "50d44ce4-3b14-542b-934b-224a96b9e60f",
+  "AlertName": "Jamming alert",
+  "AlertType": "Jamming",
+  "AlertTypeUID": "a99991d5-9756-55c8-999f-8c4c30d4e4cd",
+  "Vehicle": "VEH_009",
+  "CreatedDate": "2026-11-25T11:00:00",
+  "AlertMessage": "Jamming: VEH_009 near Glyfada, Athens, GR [37.8625 / 23.7693]",
+  "AlertQueueId": 50007
+ },
+ {
+  "AlertUID": "352db16b-6d7d-5c8c-967f-4c6890b2df9a",
+  "AlertName": "Power Cut alert",
+  "AlertType": "Power Cut",
+  "AlertTypeUID": "f106926b-0e34-5852-9ce4-9e9be3ca7774",
+  "Vehicle": "VEH_011",
+  "CreatedDate": "2026-11-25T11:30:00",
+  "AlertMessage": "Power Cut: VEH_011 near Kalamaria, Thessaloniki, GR [40.5853 / 22.9406]",
+  "AlertQueueId": 50008
+ }
+]

@@ -80,6 +80,10 @@ _DATE_OR_TIME = re.compile(
     rf"(?<![\d.\-/])(?:\d{{4}}-{_MONTH}-{_DAY}|{_DAY}[./-]{_MONTH}[./-]\d{{4}}"
     rf"|{_DAY}/{_MONTH}/\d{{2}}|(?:[01]?\d|2[0-3]):[0-5]\d(?::[0-5]\d)?)(?![.\-/:]?\d)"
 )
+# System IDs (GUIDs) are set aside too: their digit groups can look like card numbers.
+_GUID = re.compile(
+    r"\b[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}\b"
+)
 
 # Invisible or look-alike characters that could hide a number from the patterns.
 _INVISIBLE = dict.fromkeys(map(ord, "\u200b\u200c\u200d\u2060\ufeff\u00ad\x00"))
@@ -190,14 +194,14 @@ def _strip_quotes(text: str) -> str:
 
 
 def _protect_dates(text: str) -> tuple[str, list[str]]:
-    """Swap dates and times for placeholders so no pattern can touch them."""
+    """Swap GUIDs, dates and times for placeholders so no pattern can touch them."""
     saved: list[str] = []
 
     def keep(match: re.Match[str]) -> str:
         saved.append(match.group(0))
         return f"\x00{len(saved) - 1}\x00"
 
-    return _DATE_OR_TIME.sub(keep, text), saved
+    return _DATE_OR_TIME.sub(keep, _GUID.sub(keep, text)), saved
 
 
 def _restore_dates(text: str, saved: list[str]) -> str:

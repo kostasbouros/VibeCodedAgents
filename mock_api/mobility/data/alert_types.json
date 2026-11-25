@@ -1,0 +1,22 @@
+[
+ {
+  "UID": "f106926b-0e34-5852-9ce4-9e9be3ca7774",
+  "Name": "Power Cut"
+ },
+ {
+  "UID": "a99991d5-9756-55c8-999f-8c4c30d4e4cd",
+  "Name": "Jamming"
+ },
+ {
+  "UID": "80df263f-cd84-5c90-a7ca-b04eb7b45b7f",
+  "Name": "Tamper"
+ },
+ {
+  "UID": "40bb10ca-983e-51b3-bb84-ae1b14f10268",
+  "Name": "Geofence Entry"
+ },
+ {
+  "UID": "6e29c0f0-c379-5233-ad21-27d2fe31f60c",
+  "Name": "Panic"
+ }
+]

@@ -1,0 +1,1734 @@
+[
+ {
+  "Uid": "CD4A71",
+  "Name": "VEH_015",
+  "Imei": "356578713315096",
+  "LastReportedTimeLocal": "2026-11-22T15:55:00.128",
+  "LastReportedTimeUTC": "2026-11-22T13:55:00.128",
+  "Position": {
+   "Latitude": 37.850405,
+   "Longitude": 23.740632,
+   "Address": "Glyfada, Athens, GR [37.8504 / 23.7406]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 251.0,
+   "Ignition": "off",
+   "Odometer": 207672.69,
+   "EngineTime": 16613815.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-22T13:55:02.879",
+   "GPSTimeLocal": "2026-11-22T15:55:00",
+   "GPSTimeUtc": "2026-11-22T13:55:00",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "CD4A71",
+    "Name": "External Battery",
+    "Value": "12.45",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-22T15:55:00",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "CD4A71",
+    "Name": "Internal Battery",
+    "Value": "97",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-22T15:55:00",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "CD4A71",
+    "Name": "Signal Strength",
+    "Value": "5",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-22T15:55:00",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "CD4A71",
+    "Name": "Satellite Count",
+    "Value": "10",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-22T15:55:00",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "76C35F",
+  "Name": "VEH_008",
+  "Imei": "355376724238840",
+  "LastReportedTimeLocal": "2026-11-23T01:55:00.041",
+  "LastReportedTimeUTC": "2026-11-22T23:55:00.041",
+  "Position": {
+   "Latitude": 37.942534,
+   "Longitude": 23.665431,
+   "Address": "Piraeus, GR [37.9425 / 23.6654]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 233.0,
+   "Ignition": "off",
+   "Odometer": 175581.21,
+   "EngineTime": 14046497.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-22T23:55:02.953",
+   "GPSTimeLocal": "2026-11-23T01:55:00",
+   "GPSTimeUtc": "2026-11-22T23:55:00",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "76C35F",
+    "Name": "External Battery",
+    "Value": "26.64",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-23T01:55:00",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "76C35F",
+    "Name": "Internal Battery",
+    "Value": "100",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-23T01:55:00",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "76C35F",
+    "Name": "Signal Strength",
+    "Value": "5",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-23T01:55:00",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "76C35F",
+    "Name": "Satellite Count",
+    "Value": "16",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-23T01:55:00",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "5B8F33",
+  "Name": "VEH_003",
+  "Imei": "354026542351165",
+  "LastReportedTimeLocal": "2026-11-23T11:39:00.993",
+  "LastReportedTimeUTC": "2026-11-23T09:39:00.993",
+  "Position": {
+   "Latitude": 37.846754,
+   "Longitude": 23.757895,
+   "Address": "Glyfada, Athens, GR [37.8468 / 23.7579]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 341.0,
+   "Ignition": "off",
+   "Odometer": 124213.46,
+   "EngineTime": 9937077.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-23T09:39:02.216",
+   "GPSTimeLocal": "2026-11-23T11:39:00",
+   "GPSTimeUtc": "2026-11-23T09:39:00",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "5B8F33",
+    "Name": "External Battery",
+    "Value": "13.87",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-23T11:39:00",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "5B8F33",
+    "Name": "Internal Battery",
+    "Value": "100",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-23T11:39:00",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "5B8F33",
+    "Name": "Signal Strength",
+    "Value": "4",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-23T11:39:00",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "5B8F33",
+    "Name": "Satellite Count",
+    "Value": "13",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-23T11:39:00",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "CF627D",
+  "Name": "VEH_017",
+  "Imei": "354738299737632",
+  "LastReportedTimeLocal": "2026-11-24T07:48:00.924",
+  "LastReportedTimeUTC": "2026-11-24T05:48:00.924",
+  "Position": {
+   "Latitude": 40.568697,
+   "Longitude": 22.958604,
+   "Address": "Kalamaria, Thessaloniki, GR [40.5687 / 22.9586]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 170.0,
+   "Ignition": "off",
+   "Odometer": 241689.38,
+   "EngineTime": 19335150.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-24T05:48:04.599",
+   "GPSTimeLocal": "2026-11-24T07:48:00",
+   "GPSTimeUtc": "2026-11-24T05:48:00",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "CF627D",
+    "Name": "External Battery",
+    "Value": "12.81",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-24T07:48:00",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "CF627D",
+    "Name": "Internal Battery",
+    "Value": "94",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-24T07:48:00",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "CF627D",
+    "Name": "Satellite Count",
+    "Value": "14",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-24T07:48:00",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "4ADCC6",
+  "Name": "VEH_018",
+  "Imei": "351656670106511",
+  "LastReportedTimeLocal": "2026-11-25T08:48:05.052",
+  "LastReportedTimeUTC": "2026-11-25T06:48:05.052",
+  "Position": {
+   "Latitude": 40.663354,
+   "Longitude": 22.789107,
+   "Address": "Sindos, Thessaloniki, GR [40.6634 / 22.7891]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 155.0,
+   "Ignition": "off",
+   "Odometer": 214954.79,
+   "EngineTime": 17196383.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T06:48:09.868",
+   "GPSTimeLocal": "2026-11-25T08:48:05",
+   "GPSTimeUtc": "2026-11-25T06:48:05",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "4ADCC6",
+    "Name": "External Battery",
+    "Value": "26.64",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T08:48:05",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "4ADCC6",
+    "Name": "Internal Battery",
+    "Value": "99",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T08:48:05",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "4ADCC6",
+    "Name": "Signal Strength",
+    "Value": "1",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T08:48:05",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "4ADCC6",
+    "Name": "Satellite Count",
+    "Value": "16",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T08:48:05",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "9C928A",
+  "Name": "VEH_019",
+  "Imei": "353387262473170",
+  "LastReportedTimeLocal": "2026-11-25T08:48:20.297",
+  "LastReportedTimeUTC": "2026-11-25T06:48:20.297",
+  "Position": {
+   "Latitude": 38.037581,
+   "Longitude": 23.804587,
+   "Address": "Marousi, Athens, GR [38.0376 / 23.8046]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 261.0,
+   "Ignition": "off",
+   "Odometer": 138071.82,
+   "EngineTime": 11045745.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T06:48:24.237",
+   "GPSTimeLocal": "2026-11-25T08:48:20",
+   "GPSTimeUtc": "2026-11-25T06:48:20",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "9C928A",
+    "Name": "External Battery",
+    "Value": "13.61",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T08:48:20",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "9C928A",
+    "Name": "Internal Battery",
+    "Value": "98",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T08:48:20",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "9C928A",
+    "Name": "Signal Strength",
+    "Value": "1",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T08:48:20",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "9C928A",
+    "Name": "Satellite Count",
+    "Value": "14",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T08:48:20",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "BBF5E3",
+  "Name": "VEH_020",
+  "Imei": "351080132677367",
+  "LastReportedTimeLocal": "2026-11-25T08:48:35.590",
+  "LastReportedTimeUTC": "2026-11-25T06:48:35.590",
+  "Position": {
+   "Latitude": 37.934634,
+   "Longitude": 23.62904,
+   "Address": "Piraeus, GR [37.9346 / 23.629]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 150.0,
+   "Ignition": "off",
+   "Odometer": 225361.76,
+   "EngineTime": 18028940.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T06:48:39.119",
+   "GPSTimeLocal": "2026-11-25T08:48:35",
+   "GPSTimeUtc": "2026-11-25T06:48:35",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "BBF5E3",
+    "Name": "External Battery",
+    "Value": "26.64",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T08:48:35",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "BBF5E3",
+    "Name": "Internal Battery",
+    "Value": "100",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T08:48:35",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "BBF5E3",
+    "Name": "Signal Strength",
+    "Value": "1",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T08:48:35",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "BBF5E3",
+    "Name": "Satellite Count",
+    "Value": "15",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T08:48:35",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "95CF38",
+  "Name": "VEH_014",
+  "Imei": "352278248963833",
+  "LastReportedTimeLocal": "2026-11-25T13:51:16.414",
+  "LastReportedTimeUTC": "2026-11-25T11:51:16.414",
+  "Position": {
+   "Latitude": 37.956751,
+   "Longitude": 23.665132,
+   "Address": "Piraeus, GR [37.9568 / 23.6651]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 175.0,
+   "Ignition": "off",
+   "Odometer": 158434.11,
+   "EngineTime": 12674729.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:51:19.707",
+   "GPSTimeLocal": "2026-11-25T13:51:16",
+   "GPSTimeUtc": "2026-11-25T11:51:16",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "95CF38",
+    "Name": "External Battery",
+    "Value": "27.05",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:51:16",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "95CF38",
+    "Name": "Internal Battery",
+    "Value": "100",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:51:16",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "95CF38",
+    "Name": "Signal Strength",
+    "Value": "4",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:51:16",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "95CF38",
+    "Name": "Satellite Count",
+    "Value": "12",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:51:16",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "22E9CE",
+  "Name": "VEH_011",
+  "Imei": "354514627048285",
+  "LastReportedTimeLocal": "2026-11-25T13:51:18.737",
+  "LastReportedTimeUTC": "2026-11-25T11:51:18.737",
+  "Position": {
+   "Latitude": 40.585339,
+   "Longitude": 22.940635,
+   "Address": "Kalamaria, Thessaloniki, GR [40.5853 / 22.9406]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 29.0,
+   "Ignition": "off",
+   "Odometer": 78617.85,
+   "EngineTime": 6289428.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:51:19.116",
+   "GPSTimeLocal": "2026-11-25T13:51:18",
+   "GPSTimeUtc": "2026-11-25T11:51:18",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": true
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "22E9CE",
+    "Name": "External Battery",
+    "Value": "0.00",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:51:18",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "22E9CE",
+    "Name": "Internal Battery",
+    "Value": "97",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:51:18",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "22E9CE",
+    "Name": "Signal Strength",
+    "Value": "3",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:51:18",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "22E9CE",
+    "Name": "Satellite Count",
+    "Value": "10",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:51:18",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "BC4B77",
+  "Name": "VEH_012",
+  "Imei": "354893252880950",
+  "LastReportedTimeLocal": "2026-11-25T13:52:58.085",
+  "LastReportedTimeUTC": "2026-11-25T11:52:58.085",
+  "Position": {
+   "Latitude": 40.66665,
+   "Longitude": 22.813175,
+   "Address": "Sindos, Thessaloniki, GR [40.6667 / 22.8132]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 261.0,
+   "Ignition": "off",
+   "Odometer": 92207.66,
+   "EngineTime": 7376613.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:53:02.638",
+   "GPSTimeLocal": "2026-11-25T13:52:58",
+   "GPSTimeUtc": "2026-11-25T11:52:58",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "BC4B77",
+    "Name": "External Battery",
+    "Value": "27.36",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:52:58",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "BC4B77",
+    "Name": "Internal Battery",
+    "Value": "12",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:52:58",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "BC4B77",
+    "Name": "Signal Strength",
+    "Value": "3",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:52:58",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "BC4B77",
+    "Name": "Satellite Count",
+    "Value": "11",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:52:58",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "B271A8",
+  "Name": "VEH_010",
+  "Imei": "356916697848015",
+  "LastReportedTimeLocal": "2026-11-25T13:54:24.048",
+  "LastReportedTimeUTC": "2026-11-25T11:54:24.048",
+  "Position": {
+   "Latitude": 40.59516,
+   "Longitude": 22.827161,
+   "Address": "Sindos, Thessaloniki, GR [40.5952 / 22.8272]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 198.0,
+   "Ignition": "off",
+   "Odometer": 101259.92,
+   "EngineTime": 8093386.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:54:25.525",
+   "GPSTimeLocal": "2026-11-25T13:54:24",
+   "GPSTimeUtc": "2026-11-25T11:54:24",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "B271A8",
+    "Name": "External Battery",
+    "Value": "25.75",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:54:24",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "B271A8",
+    "Name": "Internal Battery",
+    "Value": "96",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:54:24",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "B271A8",
+    "Name": "Signal Strength",
+    "Value": "4",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:54:24",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "B271A8",
+    "Name": "Satellite Count",
+    "Value": "9",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:54:24",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "A381E5",
+  "Name": "VEH_007",
+  "Imei": "354835030564133",
+  "LastReportedTimeLocal": "2026-11-25T13:54:24.614",
+  "LastReportedTimeUTC": "2026-11-25T11:54:24.614",
+  "Position": {
+   "Latitude": 40.853155,
+   "Longitude": 22.08639,
+   "Address": "Kalamaria, Thessaloniki, GR [40.8532 / 22.0864]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 152.0,
+   "Ignition": "off",
+   "Odometer": 77888.26,
+   "EngineTime": 6224165.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:54:28.830",
+   "GPSTimeLocal": "2026-11-25T13:54:24",
+   "GPSTimeUtc": "2026-11-25T11:54:24",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "A381E5",
+    "Name": "External Battery",
+    "Value": "13.03",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:54:24",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "A381E5",
+    "Name": "Internal Battery",
+    "Value": "92",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:54:24",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "A381E5",
+    "Name": "Signal Strength",
+    "Value": "4",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:54:24",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "A381E5",
+    "Name": "Satellite Count",
+    "Value": "14",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:54:24",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "41A78A",
+  "Name": "VEH_016",
+  "Imei": "353930103105186",
+  "LastReportedTimeLocal": "2026-11-25T13:55:33.862",
+  "LastReportedTimeUTC": "2026-11-25T11:55:33.862",
+  "Position": {
+   "Latitude": 38.020342,
+   "Longitude": 23.7032,
+   "Address": "Peristeri, Athens, GR [38.0203 / 23.7032]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 108.0,
+   "Ignition": "off",
+   "Odometer": 63910.32,
+   "EngineTime": 5112826.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:55:37.151",
+   "GPSTimeLocal": "2026-11-25T13:55:33",
+   "GPSTimeUtc": "2026-11-25T11:55:33",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "41A78A",
+    "Name": "External Battery",
+    "Value": "26.59",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:55:33",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "41A78A",
+    "Name": "Internal Battery",
+    "Value": "90",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:55:33",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "41A78A",
+    "Name": "Signal Strength",
+    "Value": "3",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:55:33",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "41A78A",
+    "Name": "Satellite Count",
+    "Value": "10",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:55:33",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "B3A9E1",
+  "Name": "VEH_006",
+  "Imei": "352553419283272",
+  "LastReportedTimeLocal": "2026-11-25T13:56:38.681",
+  "LastReportedTimeUTC": "2026-11-25T11:56:38.681",
+  "Position": {
+   "Latitude": 37.516726,
+   "Longitude": 24.605184,
+   "Address": "Peristeri, Athens, GR [37.5167 / 24.6052]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 35.0,
+   "Ignition": "off",
+   "Odometer": 96184.38,
+   "EngineTime": 7690843.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:56:41.524",
+   "GPSTimeLocal": "2026-11-25T13:56:38",
+   "GPSTimeUtc": "2026-11-25T11:56:38",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "B3A9E1",
+    "Name": "External Battery",
+    "Value": "25.96",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:56:38",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "B3A9E1",
+    "Name": "Internal Battery",
+    "Value": "97",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:56:38",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "B3A9E1",
+    "Name": "Signal Strength",
+    "Value": "4",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:56:38",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "B3A9E1",
+    "Name": "Satellite Count",
+    "Value": "15",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:56:38",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "54681A",
+  "Name": "VEH_013",
+  "Imei": "350154303911714",
+  "LastReportedTimeLocal": "2026-11-25T13:56:55.764",
+  "LastReportedTimeUTC": "2026-11-25T11:56:55.764",
+  "Position": {
+   "Latitude": 38.075387,
+   "Longitude": 23.798973,
+   "Address": "Marousi, Athens, GR [38.0754 / 23.799]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 156.0,
+   "Ignition": "off",
+   "Odometer": 174884.02,
+   "EngineTime": 13990721.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:56:56.005",
+   "GPSTimeLocal": "2026-11-25T13:56:55",
+   "GPSTimeUtc": "2026-11-25T11:56:55",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "54681A",
+    "Name": "External Battery",
+    "Value": "13.07",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:56:55",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "54681A",
+    "Name": "Internal Battery",
+    "Value": "90",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:56:55",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "54681A",
+    "Name": "Signal Strength",
+    "Value": "3",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:56:55",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "54681A",
+    "Name": "Satellite Count",
+    "Value": "15",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:56:55",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "CF5F16",
+  "Name": "VEH_001",
+  "Imei": "351043321819604",
+  "LastReportedTimeLocal": "2026-11-25T13:57:04.336",
+  "LastReportedTimeUTC": "2026-11-25T11:57:04.336",
+  "Position": {
+   "Latitude": 37.950577,
+   "Longitude": 23.339723,
+   "Address": "Marousi, Athens, GR [37.9506 / 23.3397]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 9.0,
+   "Ignition": "off",
+   "Odometer": 63251.46,
+   "EngineTime": 5053476.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:57:05.403",
+   "GPSTimeLocal": "2026-11-25T13:57:04",
+   "GPSTimeUtc": "2026-11-25T11:57:04",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "CF5F16",
+    "Name": "External Battery",
+    "Value": "13.04",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:57:04",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "CF5F16",
+    "Name": "Internal Battery",
+    "Value": "91",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:57:04",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "CF5F16",
+    "Name": "Signal Strength",
+    "Value": "4",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:57:04",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "CF5F16",
+    "Name": "Satellite Count",
+    "Value": "10",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:57:04",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "4D6793",
+  "Name": "VEH_009",
+  "Imei": "356965328710128",
+  "LastReportedTimeLocal": "2026-11-25T13:57:42.479",
+  "LastReportedTimeUTC": "2026-11-25T11:57:42.479",
+  "Position": {
+   "Latitude": 37.862494,
+   "Longitude": 23.769288,
+   "Address": "Glyfada, Athens, GR [37.8625 / 23.7693]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 53.0,
+   "Ignition": "off",
+   "Odometer": 129850.61,
+   "EngineTime": 10388049.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:57:44.700",
+   "GPSTimeLocal": "2026-11-25T13:57:42",
+   "GPSTimeUtc": "2026-11-25T11:57:42",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": true
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "4D6793",
+    "Name": "External Battery",
+    "Value": "13.93",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:57:42",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "4D6793",
+    "Name": "Internal Battery",
+    "Value": "93",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:57:42",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "4D6793",
+    "Name": "Signal Strength",
+    "Value": "5",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:57:42",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "4D6793",
+    "Name": "Satellite Count",
+    "Value": "0",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:57:42",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "D36FBF",
+  "Name": "VEH_005",
+  "Imei": "359310341316479",
+  "LastReportedTimeLocal": "2026-11-25T13:57:59.872",
+  "LastReportedTimeUTC": "2026-11-25T11:57:59.872",
+  "Position": {
+   "Latitude": 40.570929,
+   "Longitude": 22.94604,
+   "Address": "Kalamaria, Thessaloniki, GR [40.5709 / 22.946]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 233.0,
+   "Ignition": "off",
+   "Odometer": 112551.13,
+   "EngineTime": 9004091.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:58:01.123",
+   "GPSTimeLocal": "2026-11-25T13:57:59",
+   "GPSTimeUtc": "2026-11-25T11:57:59",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "D36FBF",
+    "Name": "External Battery",
+    "Value": "12.91",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:57:59",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "D36FBF",
+    "Name": "Internal Battery",
+    "Value": "8",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:57:59",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "D36FBF",
+    "Name": "Signal Strength",
+    "Value": "5",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:57:59",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "D36FBF",
+    "Name": "Satellite Count",
+    "Value": "12",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:57:59",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "AF2618",
+  "Name": "VEH_004",
+  "Imei": "355594078161844",
+  "LastReportedTimeLocal": "2026-11-25T13:58:13.072",
+  "LastReportedTimeUTC": "2026-11-25T11:58:13.072",
+  "Position": {
+   "Latitude": 37.857114,
+   "Longitude": 23.631319,
+   "Address": "Glyfada, Athens, GR [37.8571 / 23.6313]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 197.0,
+   "Ignition": "off",
+   "Odometer": 48436.94,
+   "EngineTime": 3872012.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:58:17.094",
+   "GPSTimeLocal": "2026-11-25T13:58:13",
+   "GPSTimeUtc": "2026-11-25T11:58:13",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "AF2618",
+    "Name": "External Battery",
+    "Value": "26.42",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:58:13",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "AF2618",
+    "Name": "Internal Battery",
+    "Value": "92",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:58:13",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "AF2618",
+    "Name": "Signal Strength",
+    "Value": "3",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:58:13",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "AF2618",
+    "Name": "Satellite Count",
+    "Value": "14",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:58:13",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ },
+ {
+  "Uid": "1A537E",
+  "Name": "VEH_002",
+  "Imei": "351338908386377",
+  "LastReportedTimeLocal": "2026-11-25T13:58:55.471",
+  "LastReportedTimeUTC": "2026-11-25T11:58:55.471",
+  "Position": {
+   "Latitude": 37.878076,
+   "Longitude": 23.85157,
+   "Address": "Piraeus, GR [37.8781 / 23.8516]",
+   "Speed": 0.0,
+   "SpeedMeasure": "kph",
+   "Heading": 299.0,
+   "Ignition": "off",
+   "Odometer": 135138.28,
+   "EngineTime": 10806546.0,
+   "EngineStatus": "stopped",
+   "ServerTimeUTC": "2026-11-25T11:58:59.464",
+   "GPSTimeLocal": "2026-11-25T13:58:55",
+   "GPSTimeUtc": "2026-11-25T11:58:55",
+   "Driver": {
+    "Uid": "",
+    "FirstName": "",
+    "LastName": "",
+    "Code": ""
+   },
+   "PointOfInterest": {
+    "Uid": "",
+    "Name": "unspecified"
+   },
+   "InputOutputs": [
+    {
+     "SystemName": "panic",
+     "Description": "Panic Button Activated",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "externalpowerfailure",
+     "Description": "External Power Failure",
+     "UserDescription": "",
+     "Active": false
+    },
+    {
+     "SystemName": "gsmjammed",
+     "Description": "GSM Jammed",
+     "UserDescription": "",
+     "Active": false
+    }
+   ]
+  },
+  "SensorReadings": [
+   {
+    "UnitUid": "1A537E",
+    "Name": "External Battery",
+    "Value": "26.95",
+    "MeasurementSign": "v",
+    "ReadingTimeLocal": "2026-11-25T13:58:55",
+    "SensorType": "External Battery"
+   },
+   {
+    "UnitUid": "1A537E",
+    "Name": "Internal Battery",
+    "Value": "94",
+    "MeasurementSign": "%",
+    "ReadingTimeLocal": "2026-11-25T13:58:55",
+    "SensorType": "Battery"
+   },
+   {
+    "UnitUid": "1A537E",
+    "Name": "Signal Strength",
+    "Value": "5",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:58:55",
+    "SensorType": "GSM Signal Strength"
+   },
+   {
+    "UnitUid": "1A537E",
+    "Name": "Satellite Count",
+    "Value": "8",
+    "MeasurementSign": "",
+    "ReadingTimeLocal": "2026-11-25T13:58:55",
+    "SensorType": "Satellite Count"
+   }
+  ],
+  "Assets": []
+ }
+]
